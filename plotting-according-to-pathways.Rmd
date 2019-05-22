@@ -24,7 +24,6 @@ library(forcats)
 First, we will upload the mapping file with all the metadata associated with our samples.
 
 ```{r}
-setwd("/Users/Taruna/Dropbox/bik_lab/github/jupyter-notebook-Binder-tutorial/")
 map_table <- "example-data/mapping-file-w-metadata.txt"
 map_table <- read.table(file.path(map_table), sep = "\t", header = TRUE, check.names = FALSE)
 head(map_table)
